@@ -18,7 +18,7 @@ async function RollDice(formula, flavorText = "")
 
 await new Promise((resolve) => {
     new Dialog({
-      title: "Anzahl zu rollender Ergebnisse",
+      title: "Amount rolling results",
       content: `
       <html>
         <form>
